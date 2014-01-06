@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CC8D6DF18424852001A3EDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC8D6DE18424852001A3EDA /* Foundation.framework */; };
+		8CC8D6E118424852001A3EDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC8D6E018424852001A3EDA /* CoreGraphics.framework */; };
+		8CC8D6E318424852001A3EDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC8D6E218424852001A3EDA /* UIKit.framework */; };
+		8CC8D6E918424852001A3EDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CC8D6E718424852001A3EDA /* InfoPlist.strings */; };
+		8CC8D6EB18424852001A3EDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8D6EA18424852001A3EDA /* main.m */; };
+		8CC8D6EF18424852001A3EDA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8D6EE18424852001A3EDA /* AppDelegate.m */; };
+		8CC8D6F118424852001A3EDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC8D6F018424852001A3EDA /* Images.xcassets */; };
+		8CC8D6F818424852001A3EDA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC8D6F718424852001A3EDA /* XCTest.framework */; };
+		8CC8D6F918424852001A3EDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC8D6DE18424852001A3EDA /* Foundation.framework */; };
+		8CC8D6FA18424852001A3EDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC8D6E218424852001A3EDA /* UIKit.framework */; };
+		8CC8D70218424852001A3EDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8CC8D70018424852001A3EDA /* InfoPlist.strings */; };
+		8CC8D70418424852001A3EDA /* remoteControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC8D70318424852001A3EDA /* remoteControlTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CC8D6FB18424852001A3EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CC8D6D318424852001A3EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC8D6DA18424852001A3EDA;
+			remoteInfo = remoteControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CC8D6DB18424852001A3EDA /* remoteControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = remoteControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC8D6DE18424852001A3EDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CC8D6E018424852001A3EDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8CC8D6E218424852001A3EDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8CC8D6E618424852001A3EDA /* remoteControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "remoteControl-Info.plist"; sourceTree = "<group>"; };
+		8CC8D6E818424852001A3EDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CC8D6EA18424852001A3EDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8CC8D6EC18424852001A3EDA /* remoteControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "remoteControl-Prefix.pch"; sourceTree = "<group>"; };
+		8CC8D6ED18424852001A3EDA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8CC8D6EE18424852001A3EDA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8CC8D6F018424852001A3EDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CC8D6F618424852001A3EDA /* remoteControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = remoteControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC8D6F718424852001A3EDA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8CC8D6FF18424852001A3EDA /* remoteControlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "remoteControlTests-Info.plist"; sourceTree = "<group>"; };
+		8CC8D70118424852001A3EDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CC8D70318424852001A3EDA /* remoteControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = remoteControlTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CC8D6D818424852001A3EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC8D6E118424852001A3EDA /* CoreGraphics.framework in Frameworks */,
+				8CC8D6E318424852001A3EDA /* UIKit.framework in Frameworks */,
+				8CC8D6DF18424852001A3EDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC8D6F318424852001A3EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC8D6F818424852001A3EDA /* XCTest.framework in Frameworks */,
+				8CC8D6FA18424852001A3EDA /* UIKit.framework in Frameworks */,
+				8CC8D6F918424852001A3EDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CC8D6D218424852001A3EDA = {
+			isa = PBXGroup;
+			children = (
+				8CC8D6E418424852001A3EDA /* remoteControl */,
+				8CC8D6FD18424852001A3EDA /* remoteControlTests */,
+				8CC8D6DD18424852001A3EDA /* Frameworks */,
+				8CC8D6DC18424852001A3EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CC8D6DC18424852001A3EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CC8D6DB18424852001A3EDA /* remoteControl.app */,
+				8CC8D6F618424852001A3EDA /* remoteControlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CC8D6DD18424852001A3EDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CC8D6DE18424852001A3EDA /* Foundation.framework */,
+				8CC8D6E018424852001A3EDA /* CoreGraphics.framework */,
+				8CC8D6E218424852001A3EDA /* UIKit.framework */,
+				8CC8D6F718424852001A3EDA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CC8D6E418424852001A3EDA /* remoteControl */ = {
+			isa = PBXGroup;
+			children = (
+				8CC8D6ED18424852001A3EDA /* AppDelegate.h */,
+				8CC8D6EE18424852001A3EDA /* AppDelegate.m */,
+				8CC8D6F018424852001A3EDA /* Images.xcassets */,
+				8CC8D6E518424852001A3EDA /* Supporting Files */,
+			);
+			path = remoteControl;
+			sourceTree = "<group>";
+		};
+		8CC8D6E518424852001A3EDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CC8D6E618424852001A3EDA /* remoteControl-Info.plist */,
+				8CC8D6E718424852001A3EDA /* InfoPlist.strings */,
+				8CC8D6EA18424852001A3EDA /* main.m */,
+				8CC8D6EC18424852001A3EDA /* remoteControl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CC8D6FD18424852001A3EDA /* remoteControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CC8D70318424852001A3EDA /* remoteControlTests.m */,
+				8CC8D6FE18424852001A3EDA /* Supporting Files */,
+			);
+			path = remoteControlTests;
+			sourceTree = "<group>";
+		};
+		8CC8D6FE18424852001A3EDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CC8D6FF18424852001A3EDA /* remoteControlTests-Info.plist */,
+				8CC8D70018424852001A3EDA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CC8D6DA18424852001A3EDA /* remoteControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC8D70718424852001A3EDA /* Build configuration list for PBXNativeTarget "remoteControl" */;
+			buildPhases = (
+				8CC8D6D718424852001A3EDA /* Sources */,
+				8CC8D6D818424852001A3EDA /* Frameworks */,
+				8CC8D6D918424852001A3EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = remoteControl;
+			productName = remoteControl;
+			productReference = 8CC8D6DB18424852001A3EDA /* remoteControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CC8D6F518424852001A3EDA /* remoteControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CC8D70A18424852001A3EDA /* Build configuration list for PBXNativeTarget "remoteControlTests" */;
+			buildPhases = (
+				8CC8D6F218424852001A3EDA /* Sources */,
+				8CC8D6F318424852001A3EDA /* Frameworks */,
+				8CC8D6F418424852001A3EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CC8D6FC18424852001A3EDA /* PBXTargetDependency */,
+			);
+			name = remoteControlTests;
+			productName = remoteControlTests;
+			productReference = 8CC8D6F618424852001A3EDA /* remoteControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CC8D6D318424852001A3EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = zmf;
+				TargetAttributes = {
+					8CC8D6F518424852001A3EDA = {
+						TestTargetID = 8CC8D6DA18424852001A3EDA;
+					};
+				};
+			};
+			buildConfigurationList = 8CC8D6D618424852001A3EDA /* Build configuration list for PBXProject "remoteControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CC8D6D218424852001A3EDA;
+			productRefGroup = 8CC8D6DC18424852001A3EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CC8D6DA18424852001A3EDA /* remoteControl */,
+				8CC8D6F518424852001A3EDA /* remoteControlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CC8D6D918424852001A3EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC8D6E918424852001A3EDA /* InfoPlist.strings in Resources */,
+				8CC8D6F118424852001A3EDA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC8D6F418424852001A3EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC8D70218424852001A3EDA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CC8D6D718424852001A3EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC8D6EF18424852001A3EDA /* AppDelegate.m in Sources */,
+				8CC8D6EB18424852001A3EDA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CC8D6F218424852001A3EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC8D70418424852001A3EDA /* remoteControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CC8D6FC18424852001A3EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CC8D6DA18424852001A3EDA /* remoteControl */;
+			targetProxy = 8CC8D6FB18424852001A3EDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CC8D6E718424852001A3EDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC8D6E818424852001A3EDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CC8D70018424852001A3EDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CC8D70118424852001A3EDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CC8D70518424852001A3EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CC8D70618424852001A3EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CC8D70818424852001A3EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "remoteControl/remoteControl-Prefix.pch";
+				INFOPLIST_FILE = "remoteControl/remoteControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CC8D70918424852001A3EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "remoteControl/remoteControl-Prefix.pch";
+				INFOPLIST_FILE = "remoteControl/remoteControl-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8CC8D70B18424852001A3EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/remoteControl.app/remoteControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "remoteControl/remoteControl-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "remoteControlTests/remoteControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8CC8D70C18424852001A3EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/remoteControl.app/remoteControl";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "remoteControl/remoteControl-Prefix.pch";
+				INFOPLIST_FILE = "remoteControlTests/remoteControlTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CC8D6D618424852001A3EDA /* Build configuration list for PBXProject "remoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC8D70518424852001A3EDA /* Debug */,
+				8CC8D70618424852001A3EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CC8D70718424852001A3EDA /* Build configuration list for PBXNativeTarget "remoteControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC8D70818424852001A3EDA /* Debug */,
+				8CC8D70918424852001A3EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CC8D70A18424852001A3EDA /* Build configuration list for PBXNativeTarget "remoteControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CC8D70B18424852001A3EDA /* Debug */,
+				8CC8D70C18424852001A3EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CC8D6D318424852001A3EDA /* Project object */;
+}
